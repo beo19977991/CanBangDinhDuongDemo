@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:layout_margin="16dp">
+    <TextView
+        android:textColor="@color/yelow"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="Chao Mung Ban Den Voi Ung Dung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:id="@+id/btn_Start"
+        android:layout_centerInParent="true"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
